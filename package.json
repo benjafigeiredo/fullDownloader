@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/benjafigeiredo/fullDownloader/issues"
   },
-  "homepage": "https://github.com/benjafigeiredo/fullDownloader#readme"
+  "homepage": "https://github.com/benjafigeiredo/fullDownloader#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
