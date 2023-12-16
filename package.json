@@ -1,0 +1,26 @@
+{
+  "name": "fulldownloader",
+  "version": "1.0.0",
+  "description": "A tool for download multiple things from multiple sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-downloader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjafigeiredo/fullDownloader.git"
+  },
+  "keywords": [
+    "youtube",
+    "instagram",
+    "download",
+    "videos",
+    "stories"
+  ],
+  "author": "Benjamin Figeiredo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/benjafigeiredo/fullDownloader/issues"
+  },
+  "homepage": "https://github.com/benjafigeiredo/fullDownloader#readme"
+}
