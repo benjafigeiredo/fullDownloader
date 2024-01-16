@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 require('dotenv').config();
 const { PORT } = require('../config/config');
 const UserRoutes = require('./routes/userRoute');
@@ -8,6 +9,10 @@ const sequelize = require('../config/database');
 
 
 const app = express();
+
+// TODO this should be limited to only the frontend URL
+app.use(cors()); 
+
 app.use(express.json());
 
 sequelize.sync()
